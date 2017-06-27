@@ -1,0 +1,253 @@
+
+*{
+    padding: 0;margin: 0;
+    font-family: 'Microsoft YaHei',"Comic Sans MS","幼圆","黑体",sans-serif;
+}
+.fieldset1{
+    width:100%;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    padding:20px;
+    
+    .legend1{
+    padding: 0;
+    margin-left:10px;
+    font-size: 18px;
+    line-height: inherit;
+    color:#000;
+    border: 0;
+    width:10% !important;
+    }
+}
+
+
+
+
+.fieldset{
+    width:100%;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    padding:20px;
+    .legend{
+    padding: 0;
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    width:10% !important;
+    }
+}
+.keywords{
+    outline:none;height:20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 171px;
+    height: 30px;
+}
+.btn_search{
+    font-size: 16px;
+    padding: 1px 8px 0px 8px;
+    background: #5eb95e;
+    border-radius: 6px;
+    color: white;
+    height: 32px;
+    border: 0;
+    outline:none;
+}
+.allCut{
+    float: right;
+    font-size: 16px;
+    padding: 1px 8px 0px 8px;
+    background: #e23a34;;
+    border-radius: 6px;
+    color: white;
+    height: 32px;
+    border: 0;
+    outline: none;
+    margin-right: 20px;
+}
+.add-gods{
+    margin-right: 10px;
+    float: right;
+    font-size: 16px;
+    padding: 1px 8px 0px 8px;
+    background: rgb(37, 113, 199);
+    border-radius: 6px;
+    color: white;
+    height: 32px;
+    border: 0;
+    outline: none;
+}
+
+.t-able{
+    
+}
+.t-head{
+    display: block;
+    width: 3150px;
+    height: 50px;
+    background: #eee;
+}
+.t-h{
+    line-height: 50px;
+    width: 108px;
+    text-align: center;
+    display: inline-block;
+    
+}
+.t-body{
+width: 3150px;
+}
+#god-main{
+    width: 78%;
+    float: left;
+    position: absolute;
+    top: 56px;
+    left: 24px;
+}
+.god-list{
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 380px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    
+    .list-ul{
+    height: 62px;
+    border-bottom: 1px solid #ccc;
+    clear:both;
+    position: relative;
+    box-sizing: border-box;
+    .li-list{
+    line-height: 60px;
+    float: left;
+    width: 112px;
+    border: 0;
+    text-align: center;
+        .gods-img{
+        font-size:14px;
+        margin:0;
+        img{
+         width: 50px;
+        height: 50px;
+        
+        
+            }
+        }
+        //商品名称
+        .title{
+            width: 56%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            margin-left: 28px;
+            line-height: 30px;
+            }
+            .lei{
+                margin-left: 18px;
+            }
+    }
+}
+
+    }
+
+//添加商品样式
+.main-gods{
+    width: 100%;
+    padding:20px;
+    height: 546px;
+    overflow-y: scroll;
+    .div1{
+        overflow: hidden;
+        padding-top: 14px;
+    .lab1{
+    font-size: 16px;
+    font-weight: 100;
+    color: #000;
+    margin-top: 12px;
+    margin-left: 40px;  
+    }
+    .ipu1{
+    width: 450px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    margin-right: 280px;
+    margin-top: 5px;
+        }
+    }
+}
+.fileimg{
+    padding-top: 20px;
+    margin-left: 68px;
+    width: 100%;
+    overflow: hidden;
+}
+.div2{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+.lab2{
+    font-size: 16px;
+    font-weight: 100;
+    color: #000;
+    margin-top: 12px;
+    margin-left: 40px;  
+    float: left;
+    margin-right: 20px;
+    }
+    .ipu2{
+        float:left;
+        margin-top: 10px;
+    }
+
+    .div888888{
+        width: 100%;
+        padding-top: 80px;
+        margin: 0 auto;
+        padding-left: 240px;
+        overflow: hidden;
+        .btn-now{
+           float: left;
+           width: 20%;
+           height: 50px;
+           margin-right: 60px;
+        }
+
+    }
+    .btnlast{
+     float: left;
+    border-radius: 6px;
+    color: white;
+    height: 43px;
+    line-height: 20px;
+    border: 0;
+    width: 55px;
+    height: 30px;
+    outline: none;
+    font-size: 11px;
+    margin-top: 15px;
+    }
+    .btn-change{
+        background: rgb(37, 113, 199);
+        margin-right: 2px;
+    }
+    .btn-del{
+        background: #e23a34;;
+    }
+    .size1,.size2,.size3{
+            width: 56%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            margin-left: 28px;
+            line-height: 32px;
+    }
