@@ -9,8 +9,11 @@ import Client from '../components/client/client.vue'
 import Addgod from '../components/Goods/addgod/addgod.vue'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 import MyZero from '../components/myzero/myzero.vue'
+=======
+>>>>>>> parent of 6c76968... 8/8
 import Zerod from '../components/details/zero.vue'
 import Datails from '../components/details/datails/datails.vue'
 import Textcomponent from '../components/text/textComponenty.vue'
@@ -67,10 +70,6 @@ const router = new VueRouter({
 			name:'datalis',
 			component:Datails
 		
-	},{
-		path:'/myzero',
-		name:'myzero',
-		component:MyZero
 	}
 ]
 =======

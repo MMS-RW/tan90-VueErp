@@ -3,7 +3,7 @@
         <!--头部  -->
         <header id="yyt-o-header">
         <i class="yyt-o-back"></i>
-        <h1 class="yyt-o-h1">0元试用</h1>
+        <h1 class="yyt-o-h1">商品详情</h1>
         <span class="yyt-o-test"></span>        
         <b class="yyt-o-help"></b>
         </header>

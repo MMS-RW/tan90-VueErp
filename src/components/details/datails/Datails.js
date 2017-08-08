@@ -12,7 +12,8 @@ export default{
             top:true,
             applys:'马上申请',
             datailsset:'',
-            detailsProductMsg:{},
+            detailsProductMsg:{
+                },
             urlPath:{},
             timer:0,
           }
