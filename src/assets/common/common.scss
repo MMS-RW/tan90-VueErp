@@ -1,5 +1,10 @@
 ﻿@import './global.scss';
-
+*{
+    outline: none;
+}
+:focus{
+    outline: 0;
+}
 html{width: 100%; height: 100%;}
 body{font-family:"open sans","Helvetica Neue",Helvetica,Arial,sans-serif; color:#676a6c; width: 100%; height: 100%; font-size: 13px}
 ul{padding:0; margin:0;}

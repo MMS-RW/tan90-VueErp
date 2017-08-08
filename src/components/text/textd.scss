@@ -1,0 +1,29 @@
+@import '../../assets/common/common.scss';
+@import '../../assets/common/global.scss';
+.yyt-big{
+    width: 100%;
+    overflow: hidden;
+    overflow-y:scroll;
+    height: 1000px;
+}
+.yyt-personal{
+    width:100%;
+    overflow: hidden;
+    min-height:.3125rem;   
+    border: .0125rem solid red;
+    margin: 0 auto;
+    text-align: center;
+    .yyt-h2{
+        height:.3125rem;
+    }
+}
+.bbc{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    .ccd{
+        float: left;
+        width: 100%;
+    }
+}
