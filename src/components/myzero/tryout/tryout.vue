@@ -1,7 +1,7 @@
 <template>
   <div class="yyt-try-top">
         <header class="yyt-try-header">
-            12312312321312
+            12312312321312123123
         </header>    
   </div>
 </template>
