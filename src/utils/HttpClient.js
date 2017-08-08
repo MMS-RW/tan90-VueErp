@@ -4,7 +4,7 @@ import '../components/spinner/spinner.vue'
 
 import $ from 'jquery'
 
-const LOCAL_SERVER = 'http://localhost:888/'
+const LOCAL_SERVER = 'http://10.3.133.13:888/'
 
 const DEV_SERVER = '';
 const PRO_SERVER = '';
