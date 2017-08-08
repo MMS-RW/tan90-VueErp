@@ -1,0 +1,271 @@
+@import '../../../assets/common/common.scss';
+@import '../../../assets/font-awesome/font/iconfont.css';
+@import '../../../assets/common/global.scss';
+::-webkit-scrollbar {width: 0;height: 0;}
+.inner-container::-webkit-scrollbar {
+    display: none;
+}//谷歌隐藏滚动条
+.yyt-xx-black{
+    background: #CCC !important;
+}
+.yyt-xx-top{
+    width: 100%;
+    background: #F6F6F6;
+    height: 100%;
+    overflow-x:hidden;
+	overflow-y:auto;
+    #yyt-xx-header{
+    width: 100%;
+    background:#ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    overflow: hidden;
+    height: 118px;
+    .yyt-xx-back{
+        position: absolute;
+        left: 0.34rem;
+        top: 40px;
+        background: url('../../../assets/imgs/icon-back@2x.png') no-repeat;
+        width: 0.24rem;
+        height: 0.52rem;
+        display: block;
+    }
+    .yyt-xx-h1{
+        font-size:0.38rem;
+        color:#000000;
+        font-family: "PingFang-SC-Regular";
+        text-align: center;
+        line-height: 0.88rem;
+    }
+    .yyt-xx-help{
+        background: url('../../../assets/imgs/icon-rule@2x.png') no-repeat;
+        width: 0.44rem;
+        height: 0.44rem;
+        position: absolute;
+        top: 50%;
+        margin-top: -0.16rem;
+        right: 42px;
+    }
+    }//这个是header的css
+
+    
+    .yyt-xx-main{
+        overflow: hidden;
+        overflow-y:auto;
+        flex:1;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 108px;
+        .yyt-xx-gotop{
+        width: 78px;
+        height: 71px;
+        background: #ffe51c;
+        border-radius: 0.36rem;
+        text-align: center;
+        line-height: 71px;
+        color: #fff;
+        position: fixed;
+        bottom:140px;
+        right: 30px;
+        font-size: .52rem;
+        z-index:1000;
+        opacity: 0.80;
+}
+        .yyt-xx-big-banner{
+            width: 100%;
+            height: 7.5rem;
+            position: relative;
+            border: 1px solid #ccc;
+            .yyt-xx-banner{
+            width: 100%;
+            height: 7.5rem;
+            }
+            .yyt-xx-thework{
+            position: absolute;
+            opacity:0.88;
+            background:#dd2727;
+            bottom: 0;
+            left: 0;
+            height: .6rem;
+            width: 100%;
+            font-size: .28rem;
+            text-align: center;
+            line-height: .6rem;
+            color: #FFF;
+                .yyt-xx-thework-i{
+                font-size: .32rem;
+                margin-right: .14rem;
+                }
+            }
+        }
+        .yyt-xx-goods{
+            width: 100%;
+            height: 2.2rem;
+            padding:0.26rem 0.22rem 0 0.3rem;
+            margin-bottom: 0.24rem;
+            background: #FFF;
+            .yyt-xx-zero{
+                padding: 4px 8px 4px 8px;
+                background: #dd2727;
+                border-radius:0.04rem;
+                float: left;
+                color: #FFF;
+                font-size: 0.24rem;
+                margin-right: 0.2rem;
+            }
+            .yyt-xx-name{
+            font-size:0.28rem;
+            
+            color:#000000;
+            letter-spacing:0px;
+            word-wrap : break-word;
+            line-height:0.42rem;
+            text-align:left;
+            margin-bottom: 0.32rem;
+            // overflow : hidden;
+            // text-overflow: ellipsis;
+            // display: -webkit-box;
+            // -webkit-line-clamp: 2;
+            // -webkit-box-orient: vertical;
+        }
+            .yyt-xx-PR{
+                overflow: hidden;
+                width: 100%;
+                position: relative;
+                text-align: center;
+                .yyt-xx-price{
+                    font-size:0.28rem;
+                    color:#9b9b9b;
+                    text-decoration:line-through;
+                    position: absolute;
+                    top:0;
+                    left: 0;
+                }
+                .yyt-xx-apply{
+                    font-size:0.24rem;
+                    color:#4a4a4a;
+                    opacity:0.69;
+                }
+            }
+        }//这个是商品的图片的名字的css
+        .yyt-xx-little-pic{
+            overflow-x:hidden;
+            overflow-x: scroll;
+            background: #FFF;
+            width: 100%;
+            padding-top: 0.24rem;
+            padding-left:0.3rem;
+            .yyt-xx-ul{
+                overflow: hidden;
+                width:15rem;
+                .yyt-xx-li{
+                    float: left;
+                    width: 2.4rem;
+                    margin-right: 0.2rem;
+                    padding-bottom: 0.2rem;
+                    .yyt-xx-p1{
+                    width: 2.4rem;
+                    height: 2.4rem;
+                    .yyt-xx-p1-img{
+                    width: 2.4rem;
+                    height: 2.4rem;
+                    }
+                    }
+                    .yyt-xx-smallName{
+                    font-size:0.28rem;
+                    height: 80px;
+                    color:#000000;
+                    letter-spacing:0px;
+                    word-wrap : break-word;
+                    overflow : hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    }
+                    .yyt-xx-little-price{
+                        font-size:0.24rem;
+                        color:#cb181d;
+                        
+                    }
+                }
+                
+            }
+        }//滚动列表
+
+        .yyt-xx-hr{
+           text-align: center;
+           position: relative;
+           height: 1.56rem;
+           overflow: hidden;
+            .yyt-xx-hhr{
+                position: absolute;
+                top: 50%;
+                left: 0;
+                height: 0.02rem;
+                line-height: 1.56rem;
+                width: 100%;
+                opacity: 0.3;
+            }
+            .yyt-xx-img1{
+                background: url('../../../assets/imgs/icon-detail@2x.png') no-repeat;
+                width: 57px;
+                height: 45px;
+                position: absolute;
+                top: 53%;
+                left: 50%;
+                margin-left: -74px;
+                display: inline-block;
+                }
+            .yyt-xx-xiangqin{
+                    font-size: 0.32rem;
+                    margin-left: 0.22rem;
+                    color: #b2b2b2;
+                    display: block;
+                    line-height: 1.96rem;
+            }
+        }//分割线
+        .yyt-xx-longImg{
+            width: 100%;
+            .yyt-xx-long{
+                width: 100%;
+            }
+        }
+        .yyt-xx-tishi{
+            opacity:0.69;
+            background:#000000;
+            color:#ffffff;
+            border-radius:5px;
+            position: fixed;
+            top: 400px;
+            height: 0.8rem;
+            line-height:0.8rem; 
+            text-align: center;
+            width: 3rem;
+            height: 0.8rem;
+            font-size: .32rem;
+        }
+    
+    }//这个是main的css
+    .yyt-xx-btn{
+            width: 100%;
+            overflow: hidden;
+            position: fixed;
+            bottom:0;
+            left: 0;
+            background: #FFF;
+            text-align: center;
+            padding:0.1rem 0.3rem 0.1rem 0.3rem;
+            .yyt-xx-red-btn{
+                background:#dd2727;
+                border-radius:5px;
+                width:6.9rem;
+                height:0.9rem;
+                font-size:0.34rem;
+                color:#ffffff;
+            }
+        }
+}

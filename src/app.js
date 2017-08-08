@@ -10,14 +10,16 @@ import './assets/jquery-validation-1.15.0/dist/jquery.validate.js'
 import './assets/jquery-validation-1.15.0/dist/localization/messages_zh.js'
 import './assets/jquery-confirm/jquery-confirm.js'
 import './assets/jquery.form.min.js'
-
+import './assets/rem.js'
 
 import Vue from 'vue';
 import store from './vuex/store'
 import router from './router/'
 import App from './App.vue'
-
-
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+Vue.prototype.$axios = axios;
+Vue.use(VueAxios, axios)
 Vue.directive('datepicker', {
 	inserted: (element, binding, vnode) => {
 		var _datepicker = $(element).datepicker({
