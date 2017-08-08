@@ -1,0 +1,140 @@
+@import '../../assets/common/common.scss';
+@import '../../assets/common/global.scss';
+.gogo-top{
+    height: 118px;
+}
+.yyt-my-top{
+    overflow: hidden;
+    width: 100%;
+    background: #F6F6F6;
+    height: 100%;
+    #yyt-my-header{
+    width: 100%;
+    background:#ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    overflow: hidden;
+    height: 118px;
+        .yyt-my-back{
+        position: absolute;
+        left: 0.34rem;
+        top: 40px;
+        background: url('../../assets/imgs/icon-back@2x.png') no-repeat;
+        width: 0.24rem;
+        height: 0.52rem;
+        display: block;
+        }
+        .yyt-my-h1{
+            font-size:0.38rem;
+            color:#000000;
+            font-family: "PingFang-SC-Regular";
+            text-align: center;
+            line-height: 0.88rem;
+        }
+    }//header的CSS
+
+    .yyt-my-main{
+        overflow: hidden;
+        overflow-y:scroll;
+        flex:1;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        .yyt-my-tab{
+            overflow: hidden;
+            background: #FFF;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            height: .92rem;
+            margin-bottom: 0.32rem;
+            .yyt-my-tab1,.yyt-my-tab2{
+                font-size: .32rem;
+                line-height: .92rem;
+            }
+        }//tab切换
+        .yyt-my-goods{
+            overflow: hidden;
+            width: 100%;
+            background: #FFF;
+            // padding-top: .36rem;
+            // padding-left:.3rem;
+            .yyt-my-ul{
+                overflow: hidden;
+                width: 100%;
+                .yyt-my-li{
+                    overflow: hidden;
+                    width: 100%;
+                    position: relative;
+                    border-bottom:1px solid #ccc;
+                    padding-bottom: 56px;
+                    .yyt-my-btn{
+                        border:0.02rem solid #dd2727;
+                        border-radius:0.1rem;
+                        background: #FFF;
+                        font-size:0.3rem;
+                        color:#dd2727;
+                        text-align: center;
+                        padding: 0.14rem 0.34rem 0.14rem 0.34rem;
+                        position: absolute;
+                        right: 20px;
+                        bottom: 50%;
+                        margin-bottom: -89px;
+                    }
+                    .yyt-my-god{
+                        width: 26%;
+                        height: 2rem;
+                        padding-top: .36rem;
+                        padding-left: 0.16rem;
+                        float: left;
+                        .yyt-my-godImg{
+                            width: 100%;
+                        }
+                    }//左边图片
+                    .yyt-my-right{
+                        float: left;
+                        width: 73%;
+                        overflow: hidden;
+                        
+                        padding-top: .36rem;
+                        padding-left: 0.2rem;
+                        .yyt-my-zero{
+                            padding: 4px 8px 4px 8px;
+                            background: #dd2727;
+                            border-radius:0.04rem;
+                            float: left;
+                            color: #FFF;
+                            font-size: 0.24rem;
+                            margin-right: 0.2rem;
+                        }
+                        .yyt-my-name{
+                        font-size:0.28rem;
+                        color:#000000;
+                        letter-spacing:0px;
+                        word-wrap : break-word;
+                        line-height:0.42rem;
+                        height: 120px;
+                        text-align:left;
+                        // overflow : hidden;
+                        // text-overflow: ellipsis;
+                        // display: -webkit-box;
+                        // -webkit-line-clamp: 2;
+                        // -webkit-box-orient: vertical;
+                    }
+                    .yyt-my-timer{
+                        font-size:0.24rem;
+                        color:#9b9b9b; 
+                    }
+                    }//右边内容
+
+                }
+            }
+        
+        }//商品内容
+    
+    }//main的css
+
+
+}
