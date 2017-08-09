@@ -14,7 +14,7 @@ export default{
             datailsset:'',
             detailsProductMsg:{},
             urlPath:{},
-            timer:0,
+            timeing:0,
           }
       },
         methods:{
@@ -66,12 +66,14 @@ export default{
         var starttime = new Date("2017/8/10");
         var timer = setInterval(function () {
           var nowtime = new Date();
-          this.timer = starttime - nowtime;
-          var day = parseInt(this.timer / 1000 / 60 / 60 / 24);
-          var hour = parseInt(this.timer / 1000 / 60 / 60 % 24);
-          var minute = parseInt(this.timer / 1000 / 60 % 60);
-          var seconds = parseInt(this.timer / 1000 % 60);
-          $('.yyt-xx-timer').text(day + "天" + hour + "小时" + minute + "分钟" + seconds + "秒后结束");
+          var timed = starttime - nowtime;
+          var day = parseInt(timed / 1000 / 60 / 60 / 24);
+          var hour = parseInt(timed / 1000 / 60 / 60 % 24);
+          var minute = parseInt(timed / 1000 / 60 % 60);
+          var seconds = parseInt(timed/ 1000 % 60);
+          var tidd = day + "天" + hour + "小时" + minute + "分钟" + seconds + "秒后结束";
+          console.log(typeof this.timeing)
+          
         }, 1000);
 
         //按钮变灰色

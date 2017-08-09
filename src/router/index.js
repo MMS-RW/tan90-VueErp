@@ -9,20 +9,8 @@ import Client from '../components/client/client.vue'
 import Addgod from '../components/Goods/addgod/addgod.vue'
 import Childrensd from '../components/text/testd/childrensd.vue'
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of b71429e... 8/8
 
 import MyZero from '../components/myzero/myzero.vue'
-=======
->>>>>>> parent of 6c76968... 8/8
-=======
-
-import MyZero from '../components/myzero/myzero.vue'
->>>>>>> c1d210aea9a985e74e8334fe5dfcedd4a44e0828
 import Zerod from '../components/details/zero.vue'
 import Datails from '../components/details/datails/datails.vue'
 import Textcomponent from '../components/text/textComponenty.vue'

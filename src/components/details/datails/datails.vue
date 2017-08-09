@@ -14,7 +14,7 @@
         <div class="yyt-xx-big-banner">
             <img :src="'src/assets/imgs/'+ detailsProductMsg.bigImg" alt="" class="yyt-xx-banner">
              <p class="yyt-xx-thework">
-                <i class="yyt-xx-thework-i iconfont icon-shijian"></i>
+                <i class="yyt-xx-thework-i iconfont icon-shijian"></i>{{timeing}}
                 <span class="yyt-xx-timer"></span>
              </p> 
         </div>
